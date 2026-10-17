@@ -9,9 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.klu</groupId>
+<<<<<<< HEAD
 	<artifactId>orderservice1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>orderservice1</name>
+=======
+	<artifactId>eureka-server-insemlab</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>eureka-server-insemlab</name>
+>>>>>>> 12eed91ab7ef456bd7ca0798f771e1f950709286
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -37,7 +43,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+=======
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+>>>>>>> 12eed91ab7ef456bd7ca0798f771e1f950709286
 		</dependency>
 
 		<dependency>
